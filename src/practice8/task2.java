@@ -9,8 +9,7 @@ import javax.imageio.ImageIO;
 public class task2 {
 
     public static void main(String[] args) {
-        // Установите путь к изображению в коде
-        String imagePath = "src/practice8/images/3.jpg"; // Замените на ваш путь
+        String imagePath = "src/practice8/images/3.jpg";
 
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Отображение изображения");
